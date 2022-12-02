@@ -56,13 +56,14 @@ background-image: url(images/1.jpg);
 	background-position: center center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	width: 100%;
 }
 
 
 .img1
 {
 	margin-top: 90px;
-	width: 100%;
+	width: 200px;
 	height: 400px;
 	border-radius: 20px;
 }
