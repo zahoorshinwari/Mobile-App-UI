@@ -1,0 +1,75 @@
+.navbar-inverse
+{
+	background-color: #29bf5e;
+	
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:hover
+{
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	
+}
+
+@media screen and (max-width: 480px)
+{
+	.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:hover 
+{
+	color: white;
+	font-weight: bold;
+	padding-left: 10px;
+	font-size: 16px;
+}
+}
+
+
+
+.navbar-inverse .nav
+{
+	padding-left: 800px;
+}
+@media screen and (max-width: 320px)
+{
+	.navbar-inverse .nav
+{
+	padding-left: 320px;
+}
+}
+
+
+
+.navbar-inverse .navbar-nav > li > a
+{
+	color: white;
+	font-weight: bold;
+}
+
+.slider-image
+{
+/*	background-color: #29bf5e;*/
+background-image: url(images/1.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+
+.img1
+{
+	margin-top: 90px;
+	width: 200px;
+	height: 400px;
+	border-radius: 20px;
+}
+
+.paragraph
+{
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+}
