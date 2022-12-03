@@ -33,7 +33,7 @@
 {
 	padding-left: 700px;
 }
-@media screen and (max-width: 320px)
+@media screen and (max-width: 480px)
 {
 	.navbar-inverse .nav
 {
@@ -49,15 +49,21 @@
 	font-weight: bold;
 }
 
-.slider-image
+
+
+.img3 > .row
 {
-/*	background-color: #29bf5e;*/
-background-image: url(images/1.jpg);
-	background-position: center center;
+	background-image: url('images/16.webp');
+	
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	width: 100%;
+	background-position: center;
+	background-size:cover;
+	
+	
+	
 }
+
 
 
 .img1
